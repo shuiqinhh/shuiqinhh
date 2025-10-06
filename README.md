@@ -9,7 +9,7 @@ Welcome to my GitHub home! This space documents my **technical learning journey*
 
 | Category       | Details                                                                 |
 |----------------|-------------------------------------------------------------------------|
-| **Current Focus** | [e.g., Machine Learning / Robotics & AI / Data Mining] (update as you progress!) |
+| **Current Focus** |  Machine Learning / Robotics & AI / Data Mining  |
 | **Education**   | Undergraduate @ School of Mechanical and Energy Engineering, TongJi University<br>Major: Intelligent Manufacturing Engineering |
 | **Open to Discuss** | Deep Learning Applications / Robotics / Data Visualization / Counter Strike 2 & Valorant |
 | **Coding Skills** | Python // C/C++ // HTML&JavaScript       |
@@ -36,7 +36,7 @@ Welcome to my GitHub home! This space documents my **technical learning journey*
 ### Tools & Environment
 - **Development Tools**: VS Code / IntelliJ IDEA / Visual Studio
 - **Version Control**: Git & GitHub (obviously 😉)
-- **Deployment Tools**: [e.g., Docker / Vercel / GitHub Pages] 
+- **Deployment Tools**:  Docker / Vercel / GitHub Pages
 - **Domain-Specific Tools**: SolidWorks & AutoCAD (Machine Design) / Spyder (Python Learning) / Linux (ROS 2)
 
 
