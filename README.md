@@ -12,7 +12,7 @@ Welcome to my GitHub home! This space documents my **technical learning journey*
 | **Current Focus** | [e.g., Machine Learning / Robotics & AI / Data Mining] (update as you progress!) |
 | **Education**   | Undergraduate @ School of Mechanical and Energy Engineering, TongJi University<br>Major: Intelligent Manufacturing Engineering |
 | **Open to Discuss** | Deep Learning Applications / Robotics / Data Visualization / Counter Strike 2 & Valorant |
-| **Coding Skills** | Python // C/C++ // HTML/JavaScript       |
+| **Coding Skills** | Python // C/C++ // HTML&JavaScript       |
 | **How to Reach Me** | - Email: 2450761@tongji.edu.cn<br>- WeChat Official Account: jh98kl    |
 
 
@@ -23,7 +23,6 @@ Welcome to my GitHub home! This space documents my **technical learning journey*
 ## 💻 My Tech Stack
 
 ### Core Skills
-Badges to visualize your key tech (auto-renders on GitHub!):
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C/C++](https://img.shields.io/badge/-C/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
