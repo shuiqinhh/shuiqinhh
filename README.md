@@ -13,7 +13,7 @@ Welcome to my GitHub home! This space documents my **technical learning journey*
 | **Education**   | Undergraduate @ School of Mechanical and Energy Engineering, TongJi University<br>Major: Intelligent Manufacturing Engineering |
 | **Open to Discuss** | Deep Learning Applications / Robotics / Data Visualization / Counter Strike 2 & Valorant |
 | **Coding Skills** | Python // C/C++ // HTML&JavaScript       |
-| **How to Reach Me** | - Email: 2450761@tongji.edu.cn<br>- WeChat Official Account: jh98kl    |
+| **How to Reach Me** | - Email: 2450761@tongji.edu.cn<br>- WeChat Account: jh98kl    |
 
 
 
