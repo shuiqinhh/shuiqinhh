@@ -1,4 +1,4 @@
-# 👋 Hello! This is JiangH
+# 👋 Hello! This is Shuiqinhh
 
 Welcome to my GitHub home! This space documents my **technical learning journey**, **project practice outcomes**, and **open-source contributions**—aiming to be a clear, organized, and valuable personal technical archive.
 
