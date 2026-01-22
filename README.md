@@ -1,9 +1,13 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=shuiqinhh&fontSize=80&fontAlign=50&animation=fadeIn&fontColor=ffffff&desc=Welcome%20to%20my%20world&descSize=20&descAlign=50)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=&animation=fadeIn)
+
+<a href="https://github.com/shuiqinhh">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Zhi+Mang+Xing&size=60&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=600&height=100&lines=shuiqinhh" alt="Signature" />
+</a>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3382F7&center=true&vCenter=true&width=435&lines=Intelligent+Manufacturing+@+Tongji+Univ;Exploring+AI+%26+Robotics;Python+%2F+C%2B%2B+%2F+ROS+Developer;CS2+%26+Valorant+Player" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=3382F7&center=true&vCenter=true&width=600&lines=Intelligent+Manufacturing+@+Tongji+Univ;Exploring+AI+%26+Robotics;Python+%2F+C%2B%2B+%2F+ROS+Developer;CS2+%26+Valorant+Player" alt="Typing SVG" />
 </a>
 
 <br>
@@ -18,7 +22,6 @@
 </p>
 
 </div>
-
 ---
 
 ### 👨‍💻 About Me
