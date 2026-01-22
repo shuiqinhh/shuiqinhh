@@ -91,8 +91,9 @@
 ### 📊 Github Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shuiqinhh&show_icons=true&theme=buefy&hide_border=true&bg_color=0d1117" height="180" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shuiqinhh&layout=compact&theme=buefy&hide_border=true&bg_color=0d1117&hide=html,css" height="180" alt="languages graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=shuiqinhh&show_icons=true&theme=buefy&hide_border=true&bg_color=0d1117&include_all_commits=true" height="180" alt="stats graph" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shuiqinhh&layout=compact&theme=buefy&hide_border=true&bg_color=0d1117" height="180" alt="languages graph" />
 </div>
 
 <div align="center">
