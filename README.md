@@ -33,7 +33,7 @@
       <ul>
         <li><strong>University:</strong> Tongji University </li>
         <li><strong>Major:</strong> Intelligent Manufacturing Engineering</li>
-        <li><strong>School:</strong> School of Mechanical</li>
+        <li><strong>School:</strong> School of Mechanical Engineering</li>
       </ul>
       <h3>🔭 Current Focus</h3>
       <ul>
