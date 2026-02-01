@@ -37,8 +37,9 @@
       </ul>
       <h3>🔭 Current Focus</h3>
       <ul>
+        <li>computer vision</li>
+        <li>algorithm(c++/python)<li>
         <li>Machine Learning & Deep Learning</li>
-        <li>Robotics (ROS 2) & Perception</li>
         <li>Data Mining applications</li>
       </ul>
     </td>
