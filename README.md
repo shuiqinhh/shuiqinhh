@@ -6,10 +6,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Zhi+Mang+Xing&size=60&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=600&height=100&lines=shuiqinhh" alt="Signature" />
 </a>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=3382F7&center=true&vCenter=true&width=600&lines=Intelligent+Manufacturing+@+Tongji+Univ;CV+$+Robomaster;Exploring+AI+%26+Robotics;Python+%2F+C%2B%2B+%2F+ROS+Developer;CS2+%26+Valorant+Player" alt="Typing SVG" />
-</a>
-
 <br>
 
 <p>
