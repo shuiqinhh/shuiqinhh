@@ -1,0 +1,1063 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="580" viewBox="0 0 900 580">
+<title>shuiqinhh — ink and time</title>
+<rect width="900" height="100%" fill="#F5F2EA"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img" aria-labelledby="ink-name ink-description">
+<title id="ink-name">shuiqinhh</title>
+<desc id="ink-description">A brush-written signature, slowly appearing in warm ink on quiet rice paper.</desc>
+<defs>
+  <filter id="ink-grain" x="-5%" y="-15%" width="110%" height="130%" color-interpolation-filters="sRGB">
+    <feTurbulence type="fractalNoise" baseFrequency=".12 .16" numOctaves="3" seed="8" result="noise"/>
+    <feColorMatrix in="noise" type="luminanceToAlpha" result="texture"/>
+    <feComponentTransfer in="texture" result="dry"><feFuncA type="linear" slope=".65" intercept=".48"/></feComponentTransfer>
+    <feComposite in="SourceGraphic" in2="dry" operator="in"/>
+  </filter>
+  <filter id="ink-mist"><feGaussianBlur stdDeviation="25"/></filter>
+  <filter id="ink-paper"><feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="3" seed="3"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<style>
+.ink-glyph{fill:#313934;clip-path:inset(0 0 0 0)}
+.ink-signature{animation:ink-rest 22s ease-in-out infinite}
+.ink-wash{animation:ink-breathe 26s ease-in-out infinite;transform-origin:450px 165px}
+@keyframes ink-rest{0%,2%{opacity:0}5%,83%{opacity:1}96%,100%{opacity:0}}
+@keyframes ink-breathe{0%,100%{opacity:.45;transform:translate(0,0)}50%{opacity:.85;transform:translate(-16px,6px)}}
+.ink-letter-0{animation:ink-write-0 22s linear infinite}
+@keyframes ink-write-0{0%,5.0%{clip-path:inset(0 100% 0 0)}9.0%,100%{clip-path:inset(0 0 0 0)}}
+.ink-letter-1{animation:ink-write-1 22s linear infinite}
+@keyframes ink-write-1{0%,7.8%{clip-path:inset(0 100% 0 0)}11.8%,100%{clip-path:inset(0 0 0 0)}}
+.ink-letter-2{animation:ink-write-2 22s linear infinite}
+@keyframes ink-write-2{0%,10.6%{clip-path:inset(0 100% 0 0)}14.6%,100%{clip-path:inset(0 0 0 0)}}
+.ink-letter-3{animation:ink-write-3 22s linear infinite}
+@keyframes ink-write-3{0%,13.4%{clip-path:inset(0 100% 0 0)}17.4%,100%{clip-path:inset(0 0 0 0)}}
+.ink-letter-4{animation:ink-write-4 22s linear infinite}
+@keyframes ink-write-4{0%,16.2%{clip-path:inset(0 100% 0 0)}20.2%,100%{clip-path:inset(0 0 0 0)}}
+.ink-letter-5{animation:ink-write-5 22s linear infinite}
+@keyframes ink-write-5{0%,19.0%{clip-path:inset(0 100% 0 0)}23.0%,100%{clip-path:inset(0 0 0 0)}}
+.ink-letter-6{animation:ink-write-6 22s linear infinite}
+@keyframes ink-write-6{0%,21.8%{clip-path:inset(0 100% 0 0)}25.8%,100%{clip-path:inset(0 0 0 0)}}
+.ink-letter-7{animation:ink-write-7 22s linear infinite}
+@keyframes ink-write-7{0%,24.6%{clip-path:inset(0 100% 0 0)}28.6%,100%{clip-path:inset(0 0 0 0)}}
+.ink-letter-8{animation:ink-write-8 22s linear infinite}
+@keyframes ink-write-8{0%,27.4%{clip-path:inset(0 100% 0 0)}31.4%,100%{clip-path:inset(0 0 0 0)}}
+@media(prefers-reduced-motion:reduce){.ink-glyph,.ink-signature,.ink-wash{animation:none!important;clip-path:none;opacity:1}.ink-wash{transform:none;opacity:.6}}
+</style>
+<rect width="900" height="330" fill="#F5F2EA"/>
+<rect width="900" height="330" filter="url(#ink-paper)" opacity=".022"/>
+<g class="ink-wash" filter="url(#ink-mist)" fill="#667269">
+  <path opacity=".055" d="M75 188C183 128 237 191 353 135S534 119 624 126C481 140 456 188 317 177S176 219 75 188Z"/>
+  <path opacity=".04" d="M661 101C708 79 771 97 824 71L875 117C794 104 747 140 661 101Z"/>
+</g>
+<g class="ink-signature" filter="url(#ink-grain)">
+  <g transform="translate(215 204) scale(0.07673469 -0.07673469)">
+    <path class="ink-glyph ink-letter-0" transform="translate(0 0)" d="M12 287V311Q270 583 367 692Q389 815 473 815Q494 815 518 803L524 784Q520 772 520 750Q520 731 534.5 679.5Q549 628 557.0 593.0Q565 558 565 514Q565 448 535.0 387.5Q505 327 448.0 271.5Q391 216 301 158Q337 152 358 152Q399 152 446.5 172.5Q494 193 543.5 227.5Q593 262 659 317V250Q531 125 430.0 60.5Q329 -4 256 -4Q162 -4 82 76Q35 124 23.5 168.0Q12 212 12 287ZM385 440 367 586Q305 516 102 317Q162 304 184.0 282.0Q206 260 246 197Q314 225 350.5 273.5Q387 322 387 406Q387 416 386.5 424.0Q386 432 385 440Z"/>
+<path class="ink-glyph ink-letter-1" transform="translate(639 0)" d="M764 315V252Q677 163 613.5 106.5Q550 50 502.5 21.0Q455 -8 422 -8Q344 -8 344 84Q344 158 392.5 255.5Q441 353 532 485Q487 460 447.0 427.5Q407 395 376.0 359.5Q345 324 324 299Q259 226 199.0 149.5Q139 73 118.0 50.0Q97 27 78 27Q0 27 0 219Q0 282 19.0 358.0Q38 434 121 559Q296 821 420.5 987.5Q545 1154 627.0 1239.5Q709 1325 737 1323Q772 1320 793.5 1309.0Q815 1298 815 1284Q815 1259 780.5 1201.5Q746 1144 662 1022Q571 893 533.0 840.5Q495 788 419.5 691.5Q344 595 281.5 519.5Q219 444 139 356V236Q273 385 371.0 480.0Q469 575 537.0 623.5Q605 672 637 672Q667 672 693.0 636.5Q719 601 719 578Q719 568 709 553Q637 467 594.5 410.5Q552 354 529.0 309.5Q506 265 506 233Q506 186 551 186Q599 186 764 315Z"/>
+<path class="ink-glyph ink-letter-2" transform="translate(1387 0)" d="M487 383Q342 191 266.5 110.0Q191 29 143 29Q105 29 73.0 60.5Q41 92 23.5 145.5Q6 199 6 260Q6 300 13.5 332.0Q21 364 42.0 402.5Q63 441 97.5 486.0Q132 531 182 588Q212 623 232.5 647.0Q253 671 272.5 679.5Q292 688 336 688Q368 688 397.0 679.5Q426 671 426 662Q426 644 396.5 597.0Q367 550 301.5 482.5Q236 415 150 350Q131 291 131 260Q131 217 164 217Q176 217 204.0 237.5Q232 258 298.5 316.5Q365 375 418 420Q457 454 508.5 521.5Q560 589 592 623Q666 701 693.0 724.5Q720 748 745 748Q769 748 777.5 733.0Q786 718 786 672Q786 651 782.0 638.0Q778 625 765.5 604.5Q753 584 715.0 529.0Q677 474 625 399Q597 359 576.0 311.5Q555 264 555 240Q555 188 596 188Q630 188 675.0 216.0Q720 244 813 317V250Q696 142 640.0 93.0Q584 44 543.0 19.0Q502 -6 465 -6Q381 -6 381 94Q381 132 406.0 196.5Q431 261 487 383Z"/>
+<path class="ink-glyph ink-letter-3" transform="translate(2175 0)" d="M426 762Q401 762 378.5 781.0Q356 800 356 829Q356 873 398.0 927.0Q440 981 485 981Q515 981 535.0 962.5Q555 944 555 909Q555 866 514.0 814.0Q473 762 426 762ZM494 315V242Q397 117 313.0 53.5Q229 -10 170 -10Q88 -10 48.0 76.0Q8 162 8 264Q8 303 16.0 338.5Q24 374 35.0 397.0Q46 420 76 469Q218 690 336 690Q397 690 397 643Q397 611 357.5 543.0Q318 475 287 446Q200 362 173.5 329.0Q147 296 147 254Q147 218 174.0 194.0Q201 170 244 170Q291 170 347.5 204.5Q404 239 494 315Z"/>
+<path class="ink-glyph ink-letter-4" transform="translate(2644 0)" d="M745 678Q745 651 731 631Q736 623 745.5 606.5Q755 590 760.5 579.0Q766 568 766 557Q766 543 742.0 502.5Q718 462 655.5 369.5Q593 277 532 186L580 156Q700 232 788 322V250Q709 154 627 78Q635 36 635 25Q635 -75 540.0 -203.0Q445 -331 325.0 -428.5Q205 -526 158 -526Q84 -526 84 -395Q84 -355 142.0 -256.0Q200 -157 306.0 -6.5Q412 144 575 369Q379 177 329.5 130.0Q280 83 232.5 49.5Q185 16 147 16Q109 16 76.0 59.0Q43 102 23.5 161.0Q4 220 4 264Q4 316 16.5 350.0Q29 384 66 428Q148 531 262.5 605.0Q377 679 491.0 714.5Q605 750 688 750Q745 750 745 678ZM152 184Q194 184 255.5 218.0Q317 252 389 317Q477 396 542.5 462.5Q608 529 641.0 569.5Q674 610 674 616Q674 625 666 625Q634 625 534.0 582.5Q434 540 330.0 475.5Q226 411 172 348Q151 323 136.0 275.5Q121 228 121 213Q121 184 152 184ZM444 53Q372 -52 301.5 -185.5Q231 -319 231 -340Q231 -354 245.5 -352.0Q260 -350 291 -336Q356 -307 440 -199Q497 -124 514.5 -75.5Q532 -27 539 35Q479 25 444 53Z"/>
+<path class="ink-glyph ink-letter-5" transform="translate(3412 0)" d="M426 762Q401 762 378.5 781.0Q356 800 356 829Q356 873 398.0 927.0Q440 981 485 981Q515 981 535.0 962.5Q555 944 555 909Q555 866 514.0 814.0Q473 762 426 762ZM494 315V242Q397 117 313.0 53.5Q229 -10 170 -10Q88 -10 48.0 76.0Q8 162 8 264Q8 303 16.0 338.5Q24 374 35.0 397.0Q46 420 76 469Q218 690 336 690Q397 690 397 643Q397 611 357.5 543.0Q318 475 287 446Q200 362 173.5 329.0Q147 296 147 254Q147 218 174.0 194.0Q201 170 244 170Q291 170 347.5 204.5Q404 239 494 315Z"/>
+<path class="ink-glyph ink-letter-6" transform="translate(3881 0)" d="M690 496Q514 300 514 223Q514 180 549 180Q578 180 624.5 210.5Q671 241 770 319V250Q628 110 552.0 48.0Q476 -14 428 -14Q346 -14 346 94Q346 126 356.0 157.0Q366 188 383.5 221.5Q401 255 437.0 317.5Q473 380 520 459Q463 430 377 344Q321 290 282.0 241.5Q243 193 198.5 133.5Q154 74 133.5 53.5Q113 33 92 33Q60 33 33.0 100.0Q6 167 6 256Q6 311 18.5 342.0Q31 373 68 430Q137 536 187.0 585.5Q237 635 283 635Q315 635 334.5 624.0Q354 613 354 590Q354 580 348.0 569.0Q342 558 334.5 549.0Q327 540 303 514Q145 339 145 287Q145 258 164 258Q176 258 210.5 296.5Q245 335 299.5 397.5Q354 460 428.5 528.0Q503 596 598 659Q651 696 686 696Q702 696 717.5 652.0Q733 608 733 563Q733 541 690 496Z"/>
+<path class="ink-glyph ink-letter-7" transform="translate(4629 0)" d="M764 315V252Q677 163 613.5 106.5Q550 50 502.5 21.0Q455 -8 422 -8Q344 -8 344 84Q344 158 392.5 255.5Q441 353 532 485Q487 460 447.0 427.5Q407 395 376.0 359.5Q345 324 324 299Q259 226 199.0 149.5Q139 73 118.0 50.0Q97 27 78 27Q0 27 0 219Q0 282 19.0 358.0Q38 434 121 559Q296 821 420.5 987.5Q545 1154 627.0 1239.5Q709 1325 737 1323Q772 1320 793.5 1309.0Q815 1298 815 1284Q815 1259 780.5 1201.5Q746 1144 662 1022Q571 893 533.0 840.5Q495 788 419.5 691.5Q344 595 281.5 519.5Q219 444 139 356V236Q273 385 371.0 480.0Q469 575 537.0 623.5Q605 672 637 672Q667 672 693.0 636.5Q719 601 719 578Q719 568 709 553Q637 467 594.5 410.5Q552 354 529.0 309.5Q506 265 506 233Q506 186 551 186Q599 186 764 315Z"/>
+<path class="ink-glyph ink-letter-8" transform="translate(5377 0)" d="M764 315V252Q677 163 613.5 106.5Q550 50 502.5 21.0Q455 -8 422 -8Q344 -8 344 84Q344 158 392.5 255.5Q441 353 532 485Q487 460 447.0 427.5Q407 395 376.0 359.5Q345 324 324 299Q259 226 199.0 149.5Q139 73 118.0 50.0Q97 27 78 27Q0 27 0 219Q0 282 19.0 358.0Q38 434 121 559Q296 821 420.5 987.5Q545 1154 627.0 1239.5Q709 1325 737 1323Q772 1320 793.5 1309.0Q815 1298 815 1284Q815 1259 780.5 1201.5Q746 1144 662 1022Q571 893 533.0 840.5Q495 788 419.5 691.5Q344 595 281.5 519.5Q219 444 139 356V236Q273 385 371.0 480.0Q469 575 537.0 623.5Q605 672 637 672Q667 672 693.0 636.5Q719 601 719 578Q719 568 709 553Q637 467 594.5 410.5Q552 354 529.0 309.5Q506 265 506 233Q506 186 551 186Q599 186 764 315Z"/>
+  </g>
+</g>
+</svg>
+
+<svg y="330" xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-labelledby="calendar-title calendar-desc">
+<title id="calendar-title">GitHub contributions</title>
+<desc id="calendar-desc">shuiqinhh public GitHub contributions, 2025-09-28 to 2026-10-03. Darker ink means more contributions.</desc>
+<rect width="900" height="250" fill="#F5F2EA"/>
+<defs><filter id="calendar-soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="0.55"/></filter></defs>
+<style>.calendar-week{animation:calendar-breathe 19s ease-in-out infinite}@keyframes calendar-breathe{0%,100%{opacity:.72}35%,70%{opacity:1}}@media(prefers-reduced-motion:reduce){.calendar-week{animation:none}}</style>
+<text x="790.6" y="37" text-anchor="end" font-family="Georgia,serif" font-size="10" letter-spacing="1.1" fill="#989C92">2025.09 — 2026.10</text>
+<text x="109.4" y="68" font-family="Georgia,serif" font-size="9" fill="#A0A497">10</text>
+<text x="161.8" y="68" font-family="Georgia,serif" font-size="9" fill="#A0A497">11</text>
+<text x="227.3" y="68" font-family="Georgia,serif" font-size="9" fill="#A0A497">12</text>
+<text x="279.7" y="68" font-family="Georgia,serif" font-size="9" fill="#A0A497">01</text>
+<text x="345.2" y="68" font-family="Georgia,serif" font-size="9" fill="#A0A497">02</text>
+<text x="397.6" y="68" font-family="Georgia,serif" font-size="9" fill="#A0A497">03</text>
+<text x="450.0" y="68" font-family="Georgia,serif" font-size="9" fill="#A0A497">04</text>
+<text x="502.4" y="68" font-family="Georgia,serif" font-size="9" fill="#A0A497">05</text>
+<text x="567.9" y="68" font-family="Georgia,serif" font-size="9" fill="#A0A497">06</text>
+<text x="620.3" y="68" font-family="Georgia,serif" font-size="9" fill="#A0A497">07</text>
+<text x="672.7" y="68" font-family="Georgia,serif" font-size="9" fill="#A0A497">08</text>
+<text x="738.2" y="68" font-family="Georgia,serif" font-size="9" fill="#A0A497">09</text>
+<text x="790.6" y="68" font-family="Georgia,serif" font-size="9" fill="#A0A497">10</text>
+<g class="calendar-week" style="animation-delay:0.00s">
+<g><title>2025-09-28: 0 contributions</title>
+<circle cx="109.4" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-09-29: 0 contributions</title>
+<circle cx="109.4" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-09-30: 0 contributions</title>
+<circle cx="109.4" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-01: 0 contributions</title>
+<circle cx="109.4" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-02: 0 contributions</title>
+<circle cx="109.4" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-03: 0 contributions</title>
+<circle cx="109.4" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-04: 0 contributions</title>
+<circle cx="109.4" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-0.24s">
+<g><title>2025-10-05: 0 contributions</title>
+<circle cx="122.5" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-06: 8 contributions</title>
+<circle cx="122.5" cy="102.1" r="3.6" fill="#646E65" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="122.5" cy="102.1" r="3.15" fill="#646E65"/></g>
+<g><title>2025-10-07: 2 contributions</title>
+<circle cx="122.5" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="122.5" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2025-10-08: 0 contributions</title>
+<circle cx="122.5" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-09: 0 contributions</title>
+<circle cx="122.5" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-10: 0 contributions</title>
+<circle cx="122.5" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-11: 0 contributions</title>
+<circle cx="122.5" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-0.48s">
+<g><title>2025-10-12: 0 contributions</title>
+<circle cx="135.6" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-13: 0 contributions</title>
+<circle cx="135.6" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-14: 0 contributions</title>
+<circle cx="135.6" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-15: 0 contributions</title>
+<circle cx="135.6" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-16: 0 contributions</title>
+<circle cx="135.6" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-17: 0 contributions</title>
+<circle cx="135.6" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-18: 0 contributions</title>
+<circle cx="135.6" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-0.72s">
+<g><title>2025-10-19: 0 contributions</title>
+<circle cx="148.7" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-20: 0 contributions</title>
+<circle cx="148.7" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-21: 0 contributions</title>
+<circle cx="148.7" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-22: 0 contributions</title>
+<circle cx="148.7" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-23: 0 contributions</title>
+<circle cx="148.7" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-24: 0 contributions</title>
+<circle cx="148.7" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-25: 0 contributions</title>
+<circle cx="148.7" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-0.96s">
+<g><title>2025-10-26: 0 contributions</title>
+<circle cx="161.8" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-27: 0 contributions</title>
+<circle cx="161.8" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-28: 0 contributions</title>
+<circle cx="161.8" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-29: 0 contributions</title>
+<circle cx="161.8" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-30: 0 contributions</title>
+<circle cx="161.8" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-10-31: 1 contributions</title>
+<circle cx="161.8" cy="154.5" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="161.8" cy="154.5" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2025-11-01: 0 contributions</title>
+<circle cx="161.8" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-1.20s">
+<g><title>2025-11-02: 0 contributions</title>
+<circle cx="174.9" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-03: 3 contributions</title>
+<circle cx="174.9" cy="102.1" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="174.9" cy="102.1" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2025-11-04: 0 contributions</title>
+<circle cx="174.9" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-05: 0 contributions</title>
+<circle cx="174.9" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-06: 0 contributions</title>
+<circle cx="174.9" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-07: 0 contributions</title>
+<circle cx="174.9" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-08: 0 contributions</title>
+<circle cx="174.9" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-1.44s">
+<g><title>2025-11-09: 0 contributions</title>
+<circle cx="188.0" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-10: 0 contributions</title>
+<circle cx="188.0" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-11: 0 contributions</title>
+<circle cx="188.0" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-12: 0 contributions</title>
+<circle cx="188.0" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-13: 0 contributions</title>
+<circle cx="188.0" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-14: 0 contributions</title>
+<circle cx="188.0" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-15: 0 contributions</title>
+<circle cx="188.0" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-1.68s">
+<g><title>2025-11-16: 0 contributions</title>
+<circle cx="201.1" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-17: 2 contributions</title>
+<circle cx="201.1" cy="102.1" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="201.1" cy="102.1" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2025-11-18: 0 contributions</title>
+<circle cx="201.1" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-19: 0 contributions</title>
+<circle cx="201.1" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-20: 0 contributions</title>
+<circle cx="201.1" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-21: 0 contributions</title>
+<circle cx="201.1" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-22: 0 contributions</title>
+<circle cx="201.1" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-1.92s">
+<g><title>2025-11-23: 0 contributions</title>
+<circle cx="214.2" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-24: 0 contributions</title>
+<circle cx="214.2" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-25: 0 contributions</title>
+<circle cx="214.2" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-26: 0 contributions</title>
+<circle cx="214.2" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-27: 0 contributions</title>
+<circle cx="214.2" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-28: 0 contributions</title>
+<circle cx="214.2" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-11-29: 0 contributions</title>
+<circle cx="214.2" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-2.16s">
+<g><title>2025-11-30: 0 contributions</title>
+<circle cx="227.3" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-01: 0 contributions</title>
+<circle cx="227.3" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-02: 2 contributions</title>
+<circle cx="227.3" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="227.3" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2025-12-03: 0 contributions</title>
+<circle cx="227.3" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-04: 0 contributions</title>
+<circle cx="227.3" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-05: 0 contributions</title>
+<circle cx="227.3" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-06: 0 contributions</title>
+<circle cx="227.3" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-2.40s">
+<g><title>2025-12-07: 0 contributions</title>
+<circle cx="240.4" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-08: 0 contributions</title>
+<circle cx="240.4" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-09: 1 contributions</title>
+<circle cx="240.4" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="240.4" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2025-12-10: 2 contributions</title>
+<circle cx="240.4" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="240.4" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2025-12-11: 0 contributions</title>
+<circle cx="240.4" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-12: 2 contributions</title>
+<circle cx="240.4" cy="154.5" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="240.4" cy="154.5" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2025-12-13: 0 contributions</title>
+<circle cx="240.4" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-2.64s">
+<g><title>2025-12-14: 2 contributions</title>
+<circle cx="253.5" cy="89.0" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="253.5" cy="89.0" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2025-12-15: 1 contributions</title>
+<circle cx="253.5" cy="102.1" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="253.5" cy="102.1" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2025-12-16: 1 contributions</title>
+<circle cx="253.5" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="253.5" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2025-12-17: 0 contributions</title>
+<circle cx="253.5" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-18: 1 contributions</title>
+<circle cx="253.5" cy="141.4" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="253.5" cy="141.4" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2025-12-19: 0 contributions</title>
+<circle cx="253.5" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-20: 0 contributions</title>
+<circle cx="253.5" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-2.88s">
+<g><title>2025-12-21: 0 contributions</title>
+<circle cx="266.6" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-22: 0 contributions</title>
+<circle cx="266.6" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-23: 0 contributions</title>
+<circle cx="266.6" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-24: 0 contributions</title>
+<circle cx="266.6" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-25: 0 contributions</title>
+<circle cx="266.6" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-26: 0 contributions</title>
+<circle cx="266.6" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-27: 0 contributions</title>
+<circle cx="266.6" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-3.12s">
+<g><title>2025-12-28: 0 contributions</title>
+<circle cx="279.7" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-29: 0 contributions</title>
+<circle cx="279.7" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-30: 0 contributions</title>
+<circle cx="279.7" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2025-12-31: 0 contributions</title>
+<circle cx="279.7" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-01: 0 contributions</title>
+<circle cx="279.7" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-02: 0 contributions</title>
+<circle cx="279.7" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-03: 0 contributions</title>
+<circle cx="279.7" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-3.36s">
+<g><title>2026-01-04: 0 contributions</title>
+<circle cx="292.8" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-05: 0 contributions</title>
+<circle cx="292.8" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-06: 0 contributions</title>
+<circle cx="292.8" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-07: 0 contributions</title>
+<circle cx="292.8" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-08: 0 contributions</title>
+<circle cx="292.8" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-09: 0 contributions</title>
+<circle cx="292.8" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-10: 0 contributions</title>
+<circle cx="292.8" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-3.60s">
+<g><title>2026-01-11: 0 contributions</title>
+<circle cx="305.9" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-12: 0 contributions</title>
+<circle cx="305.9" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-13: 0 contributions</title>
+<circle cx="305.9" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-14: 0 contributions</title>
+<circle cx="305.9" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-15: 0 contributions</title>
+<circle cx="305.9" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-16: 0 contributions</title>
+<circle cx="305.9" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-17: 0 contributions</title>
+<circle cx="305.9" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-3.84s">
+<g><title>2026-01-18: 0 contributions</title>
+<circle cx="319.0" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-19: 0 contributions</title>
+<circle cx="319.0" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-20: 0 contributions</title>
+<circle cx="319.0" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-21: 3 contributions</title>
+<circle cx="319.0" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="319.0" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-01-22: 8 contributions</title>
+<circle cx="319.0" cy="141.4" r="3.6" fill="#646E65" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="319.0" cy="141.4" r="3.15" fill="#646E65"/></g>
+<g><title>2026-01-23: 1 contributions</title>
+<circle cx="319.0" cy="154.5" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="319.0" cy="154.5" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-01-24: 2 contributions</title>
+<circle cx="319.0" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="319.0" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-4.08s">
+<g><title>2026-01-25: 0 contributions</title>
+<circle cx="332.1" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-26: 1 contributions</title>
+<circle cx="332.1" cy="102.1" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="332.1" cy="102.1" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-01-27: 1 contributions</title>
+<circle cx="332.1" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="332.1" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-01-28: 0 contributions</title>
+<circle cx="332.1" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-29: 0 contributions</title>
+<circle cx="332.1" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-30: 0 contributions</title>
+<circle cx="332.1" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-01-31: 3 contributions</title>
+<circle cx="332.1" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="332.1" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-4.32s">
+<g><title>2026-02-01: 7 contributions</title>
+<circle cx="345.2" cy="89.0" r="3.6" fill="#646E65" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="345.2" cy="89.0" r="3.15" fill="#646E65"/></g>
+<g><title>2026-02-02: 1 contributions</title>
+<circle cx="345.2" cy="102.1" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="345.2" cy="102.1" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-02-03: 0 contributions</title>
+<circle cx="345.2" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-04: 0 contributions</title>
+<circle cx="345.2" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-05: 0 contributions</title>
+<circle cx="345.2" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-06: 2 contributions</title>
+<circle cx="345.2" cy="154.5" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="345.2" cy="154.5" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-02-07: 2 contributions</title>
+<circle cx="345.2" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="345.2" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-4.56s">
+<g><title>2026-02-08: 2 contributions</title>
+<circle cx="358.3" cy="89.0" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="358.3" cy="89.0" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-02-09: 0 contributions</title>
+<circle cx="358.3" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-10: 3 contributions</title>
+<circle cx="358.3" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="358.3" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-02-11: 0 contributions</title>
+<circle cx="358.3" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-12: 2 contributions</title>
+<circle cx="358.3" cy="141.4" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="358.3" cy="141.4" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-02-13: 0 contributions</title>
+<circle cx="358.3" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-14: 0 contributions</title>
+<circle cx="358.3" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-4.80s">
+<g><title>2026-02-15: 0 contributions</title>
+<circle cx="371.4" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-16: 0 contributions</title>
+<circle cx="371.4" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-17: 0 contributions</title>
+<circle cx="371.4" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-18: 0 contributions</title>
+<circle cx="371.4" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-19: 0 contributions</title>
+<circle cx="371.4" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-20: 0 contributions</title>
+<circle cx="371.4" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-21: 0 contributions</title>
+<circle cx="371.4" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-5.04s">
+<g><title>2026-02-22: 0 contributions</title>
+<circle cx="384.5" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-23: 0 contributions</title>
+<circle cx="384.5" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-24: 0 contributions</title>
+<circle cx="384.5" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-25: 0 contributions</title>
+<circle cx="384.5" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-26: 0 contributions</title>
+<circle cx="384.5" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-27: 0 contributions</title>
+<circle cx="384.5" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-02-28: 1 contributions</title>
+<circle cx="384.5" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="384.5" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-5.28s">
+<g><title>2026-03-01: 4 contributions</title>
+<circle cx="397.6" cy="89.0" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="397.6" cy="89.0" r="3.15" fill="#959A90"/></g>
+<g><title>2026-03-02: 0 contributions</title>
+<circle cx="397.6" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-03-03: 0 contributions</title>
+<circle cx="397.6" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-03-04: 1 contributions</title>
+<circle cx="397.6" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="397.6" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-03-05: 6 contributions</title>
+<circle cx="397.6" cy="141.4" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="397.6" cy="141.4" r="3.15" fill="#959A90"/></g>
+<g><title>2026-03-06: 0 contributions</title>
+<circle cx="397.6" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-03-07: 0 contributions</title>
+<circle cx="397.6" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-5.52s">
+<g><title>2026-03-08: 5 contributions</title>
+<circle cx="410.7" cy="89.0" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="410.7" cy="89.0" r="3.15" fill="#959A90"/></g>
+<g><title>2026-03-09: 0 contributions</title>
+<circle cx="410.7" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-03-10: 2 contributions</title>
+<circle cx="410.7" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="410.7" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-03-11: 1 contributions</title>
+<circle cx="410.7" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="410.7" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-03-12: 1 contributions</title>
+<circle cx="410.7" cy="141.4" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="410.7" cy="141.4" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-03-13: 8 contributions</title>
+<circle cx="410.7" cy="154.5" r="3.6" fill="#646E65" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="410.7" cy="154.5" r="3.15" fill="#646E65"/></g>
+<g><title>2026-03-14: 2 contributions</title>
+<circle cx="410.7" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="410.7" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-5.76s">
+<g><title>2026-03-15: 4 contributions</title>
+<circle cx="423.8" cy="89.0" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="423.8" cy="89.0" r="3.15" fill="#959A90"/></g>
+<g><title>2026-03-16: 1 contributions</title>
+<circle cx="423.8" cy="102.1" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="423.8" cy="102.1" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-03-17: 0 contributions</title>
+<circle cx="423.8" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-03-18: 0 contributions</title>
+<circle cx="423.8" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-03-19: 0 contributions</title>
+<circle cx="423.8" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-03-20: 1 contributions</title>
+<circle cx="423.8" cy="154.5" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="423.8" cy="154.5" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-03-21: 2 contributions</title>
+<circle cx="423.8" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="423.8" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-6.00s">
+<g><title>2026-03-22: 3 contributions</title>
+<circle cx="436.9" cy="89.0" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="436.9" cy="89.0" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-03-23: 5 contributions</title>
+<circle cx="436.9" cy="102.1" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="436.9" cy="102.1" r="3.15" fill="#959A90"/></g>
+<g><title>2026-03-24: 1 contributions</title>
+<circle cx="436.9" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="436.9" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-03-25: 1 contributions</title>
+<circle cx="436.9" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="436.9" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-03-26: 0 contributions</title>
+<circle cx="436.9" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-03-27: 1 contributions</title>
+<circle cx="436.9" cy="154.5" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="436.9" cy="154.5" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-03-28: 0 contributions</title>
+<circle cx="436.9" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-6.24s">
+<g><title>2026-03-29: 0 contributions</title>
+<circle cx="450.0" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-03-30: 2 contributions</title>
+<circle cx="450.0" cy="102.1" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="450.0" cy="102.1" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-03-31: 7 contributions</title>
+<circle cx="450.0" cy="115.2" r="3.6" fill="#646E65" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="450.0" cy="115.2" r="3.15" fill="#646E65"/></g>
+<g><title>2026-04-01: 1 contributions</title>
+<circle cx="450.0" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="450.0" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-04-02: 2 contributions</title>
+<circle cx="450.0" cy="141.4" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="450.0" cy="141.4" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-04-03: 0 contributions</title>
+<circle cx="450.0" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-04-04: 0 contributions</title>
+<circle cx="450.0" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-6.48s">
+<g><title>2026-04-05: 0 contributions</title>
+<circle cx="463.1" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-04-06: 0 contributions</title>
+<circle cx="463.1" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-04-07: 2 contributions</title>
+<circle cx="463.1" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="463.1" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-04-08: 0 contributions</title>
+<circle cx="463.1" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-04-09: 0 contributions</title>
+<circle cx="463.1" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-04-10: 0 contributions</title>
+<circle cx="463.1" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-04-11: 4 contributions</title>
+<circle cx="463.1" cy="167.6" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="463.1" cy="167.6" r="3.15" fill="#959A90"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-6.72s">
+<g><title>2026-04-12: 2 contributions</title>
+<circle cx="476.2" cy="89.0" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="476.2" cy="89.0" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-04-13: 8 contributions</title>
+<circle cx="476.2" cy="102.1" r="3.6" fill="#646E65" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="476.2" cy="102.1" r="3.15" fill="#646E65"/></g>
+<g><title>2026-04-14: 8 contributions</title>
+<circle cx="476.2" cy="115.2" r="3.6" fill="#646E65" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="476.2" cy="115.2" r="3.15" fill="#646E65"/></g>
+<g><title>2026-04-15: 9 contributions</title>
+<circle cx="476.2" cy="128.3" r="3.6" fill="#646E65" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="476.2" cy="128.3" r="3.15" fill="#646E65"/></g>
+<g><title>2026-04-16: 4 contributions</title>
+<circle cx="476.2" cy="141.4" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="476.2" cy="141.4" r="3.15" fill="#959A90"/></g>
+<g><title>2026-04-17: 4 contributions</title>
+<circle cx="476.2" cy="154.5" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="476.2" cy="154.5" r="3.15" fill="#959A90"/></g>
+<g><title>2026-04-18: 9 contributions</title>
+<circle cx="476.2" cy="167.6" r="3.6" fill="#646E65" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="476.2" cy="167.6" r="3.15" fill="#646E65"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-6.96s">
+<g><title>2026-04-19: 2 contributions</title>
+<circle cx="489.3" cy="89.0" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="489.3" cy="89.0" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-04-20: 0 contributions</title>
+<circle cx="489.3" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-04-21: 0 contributions</title>
+<circle cx="489.3" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-04-22: 0 contributions</title>
+<circle cx="489.3" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-04-23: 2 contributions</title>
+<circle cx="489.3" cy="141.4" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="489.3" cy="141.4" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-04-24: 5 contributions</title>
+<circle cx="489.3" cy="154.5" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="489.3" cy="154.5" r="3.15" fill="#959A90"/></g>
+<g><title>2026-04-25: 4 contributions</title>
+<circle cx="489.3" cy="167.6" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="489.3" cy="167.6" r="3.15" fill="#959A90"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-7.20s">
+<g><title>2026-04-26: 5 contributions</title>
+<circle cx="502.4" cy="89.0" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="502.4" cy="89.0" r="3.15" fill="#959A90"/></g>
+<g><title>2026-04-27: 1 contributions</title>
+<circle cx="502.4" cy="102.1" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="502.4" cy="102.1" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-04-28: 3 contributions</title>
+<circle cx="502.4" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="502.4" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-04-29: 0 contributions</title>
+<circle cx="502.4" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-04-30: 3 contributions</title>
+<circle cx="502.4" cy="141.4" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="502.4" cy="141.4" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-05-01: 0 contributions</title>
+<circle cx="502.4" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-05-02: 4 contributions</title>
+<circle cx="502.4" cy="167.6" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="502.4" cy="167.6" r="3.15" fill="#959A90"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-7.44s">
+<g><title>2026-05-03: 9 contributions</title>
+<circle cx="515.5" cy="89.0" r="3.6" fill="#646E65" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="515.5" cy="89.0" r="3.15" fill="#646E65"/></g>
+<g><title>2026-05-04: 1 contributions</title>
+<circle cx="515.5" cy="102.1" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="515.5" cy="102.1" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-05-05: 7 contributions</title>
+<circle cx="515.5" cy="115.2" r="3.6" fill="#646E65" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="515.5" cy="115.2" r="3.15" fill="#646E65"/></g>
+<g><title>2026-05-06: 0 contributions</title>
+<circle cx="515.5" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-05-07: 2 contributions</title>
+<circle cx="515.5" cy="141.4" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="515.5" cy="141.4" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-05-08: 2 contributions</title>
+<circle cx="515.5" cy="154.5" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="515.5" cy="154.5" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-05-09: 1 contributions</title>
+<circle cx="515.5" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="515.5" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-7.68s">
+<g><title>2026-05-10: 0 contributions</title>
+<circle cx="528.6" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-05-11: 2 contributions</title>
+<circle cx="528.6" cy="102.1" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="528.6" cy="102.1" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-05-12: 2 contributions</title>
+<circle cx="528.6" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="528.6" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-05-13: 3 contributions</title>
+<circle cx="528.6" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="528.6" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-05-14: 5 contributions</title>
+<circle cx="528.6" cy="141.4" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="528.6" cy="141.4" r="3.15" fill="#959A90"/></g>
+<g><title>2026-05-15: 2 contributions</title>
+<circle cx="528.6" cy="154.5" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="528.6" cy="154.5" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-05-16: 0 contributions</title>
+<circle cx="528.6" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-7.92s">
+<g><title>2026-05-17: 1 contributions</title>
+<circle cx="541.7" cy="89.0" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="541.7" cy="89.0" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-05-18: 1 contributions</title>
+<circle cx="541.7" cy="102.1" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="541.7" cy="102.1" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-05-19: 1 contributions</title>
+<circle cx="541.7" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="541.7" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-05-20: 12 contributions</title>
+<circle cx="541.7" cy="128.3" r="3.6" fill="#3E4A42" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="541.7" cy="128.3" r="3.15" fill="#3E4A42"/></g>
+<g><title>2026-05-21: 0 contributions</title>
+<circle cx="541.7" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-05-22: 4 contributions</title>
+<circle cx="541.7" cy="154.5" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="541.7" cy="154.5" r="3.15" fill="#959A90"/></g>
+<g><title>2026-05-23: 2 contributions</title>
+<circle cx="541.7" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="541.7" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-8.16s">
+<g><title>2026-05-24: 0 contributions</title>
+<circle cx="554.8" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-05-25: 0 contributions</title>
+<circle cx="554.8" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-05-26: 0 contributions</title>
+<circle cx="554.8" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-05-27: 1 contributions</title>
+<circle cx="554.8" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="554.8" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-05-28: 0 contributions</title>
+<circle cx="554.8" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-05-29: 0 contributions</title>
+<circle cx="554.8" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-05-30: 2 contributions</title>
+<circle cx="554.8" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="554.8" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-8.40s">
+<g><title>2026-05-31: 0 contributions</title>
+<circle cx="567.9" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-01: 0 contributions</title>
+<circle cx="567.9" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-02: 0 contributions</title>
+<circle cx="567.9" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-03: 0 contributions</title>
+<circle cx="567.9" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-04: 0 contributions</title>
+<circle cx="567.9" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-05: 0 contributions</title>
+<circle cx="567.9" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-06: 4 contributions</title>
+<circle cx="567.9" cy="167.6" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="567.9" cy="167.6" r="3.15" fill="#959A90"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-8.64s">
+<g><title>2026-06-07: 0 contributions</title>
+<circle cx="581.0" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-08: 4 contributions</title>
+<circle cx="581.0" cy="102.1" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="581.0" cy="102.1" r="3.15" fill="#959A90"/></g>
+<g><title>2026-06-09: 4 contributions</title>
+<circle cx="581.0" cy="115.2" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="581.0" cy="115.2" r="3.15" fill="#959A90"/></g>
+<g><title>2026-06-10: 1 contributions</title>
+<circle cx="581.0" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="581.0" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-06-11: 0 contributions</title>
+<circle cx="581.0" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-12: 8 contributions</title>
+<circle cx="581.0" cy="154.5" r="3.6" fill="#646E65" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="581.0" cy="154.5" r="3.15" fill="#646E65"/></g>
+<g><title>2026-06-13: 0 contributions</title>
+<circle cx="581.0" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-8.88s">
+<g><title>2026-06-14: 3 contributions</title>
+<circle cx="594.1" cy="89.0" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="594.1" cy="89.0" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-06-15: 0 contributions</title>
+<circle cx="594.1" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-16: 1 contributions</title>
+<circle cx="594.1" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="594.1" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-06-17: 1 contributions</title>
+<circle cx="594.1" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="594.1" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-06-18: 1 contributions</title>
+<circle cx="594.1" cy="141.4" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="594.1" cy="141.4" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-06-19: 1 contributions</title>
+<circle cx="594.1" cy="154.5" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="594.1" cy="154.5" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-06-20: 1 contributions</title>
+<circle cx="594.1" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="594.1" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-9.12s">
+<g><title>2026-06-21: 0 contributions</title>
+<circle cx="607.2" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-22: 0 contributions</title>
+<circle cx="607.2" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-23: 1 contributions</title>
+<circle cx="607.2" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="607.2" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-06-24: 0 contributions</title>
+<circle cx="607.2" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-25: 1 contributions</title>
+<circle cx="607.2" cy="141.4" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="607.2" cy="141.4" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-06-26: 0 contributions</title>
+<circle cx="607.2" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-27: 1 contributions</title>
+<circle cx="607.2" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="607.2" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-9.36s">
+<g><title>2026-06-28: 0 contributions</title>
+<circle cx="620.3" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-29: 0 contributions</title>
+<circle cx="620.3" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-06-30: 0 contributions</title>
+<circle cx="620.3" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-01: 1 contributions</title>
+<circle cx="620.3" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="620.3" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-07-02: 3 contributions</title>
+<circle cx="620.3" cy="141.4" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="620.3" cy="141.4" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-07-03: 0 contributions</title>
+<circle cx="620.3" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-04: 1 contributions</title>
+<circle cx="620.3" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="620.3" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-9.60s">
+<g><title>2026-07-05: 1 contributions</title>
+<circle cx="633.4" cy="89.0" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="633.4" cy="89.0" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-07-06: 0 contributions</title>
+<circle cx="633.4" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-07: 1 contributions</title>
+<circle cx="633.4" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="633.4" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-07-08: 0 contributions</title>
+<circle cx="633.4" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-09: 0 contributions</title>
+<circle cx="633.4" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-10: 4 contributions</title>
+<circle cx="633.4" cy="154.5" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="633.4" cy="154.5" r="3.15" fill="#959A90"/></g>
+<g><title>2026-07-11: 0 contributions</title>
+<circle cx="633.4" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-9.84s">
+<g><title>2026-07-12: 0 contributions</title>
+<circle cx="646.5" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-13: 0 contributions</title>
+<circle cx="646.5" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-14: 0 contributions</title>
+<circle cx="646.5" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-15: 0 contributions</title>
+<circle cx="646.5" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-16: 0 contributions</title>
+<circle cx="646.5" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-17: 0 contributions</title>
+<circle cx="646.5" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-18: 0 contributions</title>
+<circle cx="646.5" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-10.08s">
+<g><title>2026-07-19: 0 contributions</title>
+<circle cx="659.6" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-20: 0 contributions</title>
+<circle cx="659.6" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-21: 0 contributions</title>
+<circle cx="659.6" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-22: 0 contributions</title>
+<circle cx="659.6" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-23: 0 contributions</title>
+<circle cx="659.6" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-24: 4 contributions</title>
+<circle cx="659.6" cy="154.5" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="659.6" cy="154.5" r="3.15" fill="#959A90"/></g>
+<g><title>2026-07-25: 0 contributions</title>
+<circle cx="659.6" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-10.32s">
+<g><title>2026-07-26: 4 contributions</title>
+<circle cx="672.7" cy="89.0" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="672.7" cy="89.0" r="3.15" fill="#959A90"/></g>
+<g><title>2026-07-27: 3 contributions</title>
+<circle cx="672.7" cy="102.1" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="672.7" cy="102.1" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-07-28: 0 contributions</title>
+<circle cx="672.7" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-29: 0 contributions</title>
+<circle cx="672.7" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-30: 0 contributions</title>
+<circle cx="672.7" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-07-31: 0 contributions</title>
+<circle cx="672.7" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-01: 0 contributions</title>
+<circle cx="672.7" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-10.56s">
+<g><title>2026-08-02: 0 contributions</title>
+<circle cx="685.8" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-03: 0 contributions</title>
+<circle cx="685.8" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-04: 0 contributions</title>
+<circle cx="685.8" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-05: 2 contributions</title>
+<circle cx="685.8" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="685.8" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-08-06: 1 contributions</title>
+<circle cx="685.8" cy="141.4" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="685.8" cy="141.4" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-08-07: 0 contributions</title>
+<circle cx="685.8" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-08: 0 contributions</title>
+<circle cx="685.8" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-10.80s">
+<g><title>2026-08-09: 0 contributions</title>
+<circle cx="698.9" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-10: 0 contributions</title>
+<circle cx="698.9" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-11: 0 contributions</title>
+<circle cx="698.9" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-12: 0 contributions</title>
+<circle cx="698.9" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-13: 0 contributions</title>
+<circle cx="698.9" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-14: 0 contributions</title>
+<circle cx="698.9" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-15: 0 contributions</title>
+<circle cx="698.9" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-11.04s">
+<g><title>2026-08-16: 0 contributions</title>
+<circle cx="712.0" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-17: 0 contributions</title>
+<circle cx="712.0" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-18: 0 contributions</title>
+<circle cx="712.0" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-19: 0 contributions</title>
+<circle cx="712.0" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-20: 0 contributions</title>
+<circle cx="712.0" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-21: 0 contributions</title>
+<circle cx="712.0" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-22: 0 contributions</title>
+<circle cx="712.0" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-11.28s">
+<g><title>2026-08-23: 0 contributions</title>
+<circle cx="725.1" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-24: 0 contributions</title>
+<circle cx="725.1" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-25: 0 contributions</title>
+<circle cx="725.1" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-26: 0 contributions</title>
+<circle cx="725.1" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-27: 0 contributions</title>
+<circle cx="725.1" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-28: 0 contributions</title>
+<circle cx="725.1" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-29: 0 contributions</title>
+<circle cx="725.1" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-11.52s">
+<g><title>2026-08-30: 0 contributions</title>
+<circle cx="738.2" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-08-31: 0 contributions</title>
+<circle cx="738.2" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-01: 0 contributions</title>
+<circle cx="738.2" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-02: 0 contributions</title>
+<circle cx="738.2" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-03: 0 contributions</title>
+<circle cx="738.2" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-04: 2 contributions</title>
+<circle cx="738.2" cy="154.5" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="738.2" cy="154.5" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-09-05: 4 contributions</title>
+<circle cx="738.2" cy="167.6" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="738.2" cy="167.6" r="3.15" fill="#959A90"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-11.76s">
+<g><title>2026-09-06: 1 contributions</title>
+<circle cx="751.3" cy="89.0" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="751.3" cy="89.0" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-09-07: 0 contributions</title>
+<circle cx="751.3" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-08: 6 contributions</title>
+<circle cx="751.3" cy="115.2" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="751.3" cy="115.2" r="3.15" fill="#959A90"/></g>
+<g><title>2026-09-09: 3 contributions</title>
+<circle cx="751.3" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="751.3" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-09-10: 1 contributions</title>
+<circle cx="751.3" cy="141.4" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="751.3" cy="141.4" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-09-11: 0 contributions</title>
+<circle cx="751.3" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-12: 0 contributions</title>
+<circle cx="751.3" cy="167.6" r="2.8" fill="#E1DED5"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-12.00s">
+<g><title>2026-09-13: 1 contributions</title>
+<circle cx="764.4" cy="89.0" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="764.4" cy="89.0" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-09-14: 0 contributions</title>
+<circle cx="764.4" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-15: 0 contributions</title>
+<circle cx="764.4" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-16: 3 contributions</title>
+<circle cx="764.4" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="764.4" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-09-17: 0 contributions</title>
+<circle cx="764.4" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-18: 1 contributions</title>
+<circle cx="764.4" cy="154.5" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="764.4" cy="154.5" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-09-19: 5 contributions</title>
+<circle cx="764.4" cy="167.6" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="764.4" cy="167.6" r="3.15" fill="#959A90"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-12.24s">
+<g><title>2026-09-20: 0 contributions</title>
+<circle cx="777.5" cy="89.0" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-21: 0 contributions</title>
+<circle cx="777.5" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-22: 0 contributions</title>
+<circle cx="777.5" cy="115.2" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-23: 0 contributions</title>
+<circle cx="777.5" cy="128.3" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-24: 0 contributions</title>
+<circle cx="777.5" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-25: 1 contributions</title>
+<circle cx="777.5" cy="154.5" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="777.5" cy="154.5" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-09-26: 1 contributions</title>
+<circle cx="777.5" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="777.5" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+<g class="calendar-week" style="animation-delay:-12.48s">
+<g><title>2026-09-27: 2 contributions</title>
+<circle cx="790.6" cy="89.0" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="790.6" cy="89.0" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-09-28: 0 contributions</title>
+<circle cx="790.6" cy="102.1" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-09-29: 3 contributions</title>
+<circle cx="790.6" cy="115.2" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="790.6" cy="115.2" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-09-30: 1 contributions</title>
+<circle cx="790.6" cy="128.3" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="790.6" cy="128.3" r="3.15" fill="#C6C4BA"/></g>
+<g><title>2026-10-01: 0 contributions</title>
+<circle cx="790.6" cy="141.4" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-10-02: 5 contributions</title>
+<circle cx="790.6" cy="154.5" r="3.6" fill="#959A90" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="790.6" cy="154.5" r="3.15" fill="#959A90"/></g>
+<g><title>2026-10-03: 3 contributions</title>
+<circle cx="790.6" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="790.6" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
+</g>
+</svg>
+
+</svg>
