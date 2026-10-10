@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-labelledby="calendar-title calendar-desc">
 <title id="calendar-title">GitHub contributions</title>
-<desc id="calendar-desc">shuiqinhh public GitHub contributions, 2025-10-05 to 2026-10-09. Darker ink means more contributions.</desc>
+<desc id="calendar-desc">shuiqinhh public GitHub contributions, 2025-10-05 to 2026-10-10. Darker ink means more contributions.</desc>
 <rect width="900" height="250" fill="#F5F2EA"/>
 <defs><filter id="calendar-soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="0.55"/></filter></defs>
 <style>.calendar-week{animation:calendar-breathe 19s ease-in-out infinite}@keyframes calendar-breathe{0%,100%{opacity:.72}35%,70%{opacity:1}}@media(prefers-reduced-motion:reduce){.calendar-week{animation:none}}</style>
@@ -994,5 +994,8 @@
 <circle cx="790.6" cy="141.4" r="2.8" fill="#E1DED5"/></g>
 <g><title>2026-10-09: 0 contributions</title>
 <circle cx="790.6" cy="154.5" r="2.8" fill="#E1DED5"/></g>
+<g><title>2026-10-10: 1 contributions</title>
+<circle cx="790.6" cy="167.6" r="3.6" fill="#C6C4BA" opacity=".24" filter="url(#calendar-soft)"/>
+<circle cx="790.6" cy="167.6" r="3.15" fill="#C6C4BA"/></g>
 </g>
 </svg>
